@@ -1,0 +1,11 @@
+[package]
+name = "wasmtime-async-test"
+version = "0.1.0"
+authors = ["Adam C. Foltzer <acfoltzer@fastly.com>"]
+edition = "2018"
+
+[dependencies]
+async-std = { version = "1.6.0", features = ["attributes"] }
+futures = "0.3.5"
+wasmtime = "0.17.0"
+wasmtime-wasi = "0.17.0"
